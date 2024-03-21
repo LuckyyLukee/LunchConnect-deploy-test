@@ -5,14 +5,17 @@ import authRouter from "./routes/authRoutes.js";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
+
 import path from "path";
+import { fileURLToPath } from "url";
 
 import { app, server } from "./utils/socket.js";
 import { connectDB } from "./utils/connectDB.js";
 
 const PORT = process.env.PORT || 3000;
 
-const __dirname = path.resolve();
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 dotenv.config();
 
