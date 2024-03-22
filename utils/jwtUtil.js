@@ -5,7 +5,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-const keysDir = path.join(__dirname, "../config/keys/");
+const keysDir = path.join(__dirname, "../etc/secrets/");
 
 const privateKey = fs.readFileSync(keysDir + "private.pem");
 const publicKey = fs.readFileSync(keysDir + "public.pem");
