@@ -1103,7 +1103,7 @@ form {
 
 .icons {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   width: 100%;
   gap: 1.5rem;
@@ -1155,7 +1155,7 @@ form {
 
 .lunch-tag {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   width: 92%;
   align-items: center;
   margin: -1.2rem 0;
@@ -1189,7 +1189,7 @@ form {
 
 .msg-sendBtn {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   width: 80%;
 }
@@ -1764,7 +1764,7 @@ form {
   }
   .filter {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     width: 80%;
     cursor: pointer;
   }
@@ -1845,7 +1845,7 @@ form {
   }
   .filter {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     width: 80%;
     cursor: pointer;
   }
