@@ -12,7 +12,7 @@ export default defineConfig(revc_({
         secure: 'auto',
       },
       '/socket.io': {
-        target: 'ws://localhost:3000',
+        target: 'localhost:3000',
         ws: true,
         changeOrigin: true,
       },
